@@ -23,4 +23,18 @@ $(document).ready(function() {
     target: '#mainNav',
     offset: 56
   });
+
+  // add .adjust class to navbar once scrolled below jumbotron
+  $(window).scroll(function() {
+    let scrollPos = $(document).scrollTop()
+    // console.log(scrollPos)
+    let about = $('#about').offset().top
+    // console.log(about)
+    if(scrollPos >= about) {
+      $('#mainNav').addClass('adjust')
+    } else {
+      $('#mainNav').removeClass('adjust')
+    }
+    
+  })
 })

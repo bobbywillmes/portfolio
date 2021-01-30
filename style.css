@@ -9,3 +9,71 @@ header {
 section {
   padding: 150px 0;
 }
+
+#mainNav {
+  background: unset;
+}
+
+#mainNav.adjust {
+  background: #fff8;
+}
+
+#mainNav.adjust a {
+  color: black;
+}
+
+#navbarResponsive a {
+  color: black;
+}
+
+#navbarResponsive a.active {
+  color: #888;
+}
+
+#jumbo {
+  position: relative;
+  z-index: -101;
+  height: 70vh;
+  margin: 0;
+}
+
+#jumboBackground {
+  background: url('./mountain.jpg');
+  background-size: cover;
+  height: 70vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -100;
+}
+
+#jumbo video {
+  position: fixed;
+  /* top: 0; */
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
+  width: 100%;
+}
+
+#jumbo .container {
+  border: 1px dashed #ccc;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#jumbo h1 {
+  font-size: 70px;
+}
+
+#jumbo p {
+  font-size: 24px;
+}
+
+#about {
+  background: #00c3ff;
+}
