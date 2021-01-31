@@ -14,6 +14,10 @@ section {
   background: unset;
 }
 
+#mainNav a {
+  color: black;
+}
+
 #mainNav.adjust {
   background: #fff8;
 }
@@ -74,8 +78,23 @@ section {
   font-size: 24px;
 }
 
-#about {
-  background: #00c3ff;
+#social {
+  background: #00c3ff6c;
+  padding: 50px 0;
+}
+
+#social .col-2 {
+  margin: 0 auto;
+}
+
+#social a {
+  color: black;
+  margin: 0 5px;
+}
+
+#social a:hover {
+  color: blue;
+  background: #eee !important;
 }
 
 #projects {
