@@ -40,7 +40,7 @@ section {
 #jumboBackground {
   background: url('./mountain.jpg');
   background-size: cover;
-  height: 70vh;
+  height: 100vh;
   position: fixed;
   top: 0;
   left: 0;
@@ -76,4 +76,13 @@ section {
 
 #about {
   background: #00c3ff;
+}
+
+#projects {
+  background: #eee;
+  padding: 5rem 2rem;
+}
+
+.title {
+  font-size: 20px;
 }
